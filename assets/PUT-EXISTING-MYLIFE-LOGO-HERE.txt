@@ -1,0 +1,1 @@
+Copy the existing MYLIFE logo here as assets/logo.png before publishing. The site references assets/logo.png.

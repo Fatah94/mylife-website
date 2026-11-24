@@ -1,0 +1,1 @@
+Copy the final signed Android APK here and name it mylife.apk. The download button points to downloads/mylife.apk.
