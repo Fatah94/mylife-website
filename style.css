@@ -80,3 +80,11 @@ html[data-theme="light"] .gallery-grid img{background:#eef4ef}
 html[data-theme="light"] .widget-showcase{background:var(--panel);border-color:var(--line)}
 html[data-theme="light"] .widget-list li{background:#fff;color:var(--text)}
 @media(max-width:760px){.widget-showcase{grid-template-columns:1fr;padding:22px}.widget-image-wrap{max-width:260px}.widget-list{grid-template-columns:1fr}}
+
+
+/* Promotional lifetime pricing */
+.price-card .price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.price-card .old-price{font-size:18px;font-weight:700;color:var(--muted);text-decoration:line-through;opacity:.85}
+.price-card .price strong{font-size:clamp(38px,5vw,54px);font-weight:800;color:var(--gold)}
+.promo-label{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:#173d27;color:#82e8a6;font-size:11px;font-weight:800;letter-spacing:.08em}
+html[data-theme="light"] .promo-label{background:#d9f1e1;color:#08733b}

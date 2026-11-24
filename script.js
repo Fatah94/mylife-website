@@ -41,7 +41,7 @@ function setLanguage(lang){
   });
   toggle.textContent = lang === "ms" ? "EN" : "BM";
   const msg = lang === "ms"
-    ? "Hi MYLIFE, saya ingin membeli Full Activation RM9.90."
+    ? "Hi MYLIFE, saya ingin membeli Full Activation Lifetime RM9.90 (original RM49.90)."
     : "Hi MYLIFE, I would like to purchase Full Activation for RM9.90.";
   document.getElementById("buyButton").href = "https://wa.me/601111505560?text=" + encodeURIComponent(msg);
 }
