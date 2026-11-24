@@ -2,182 +2,82 @@
 <html lang="ms">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090909">
-  <meta name="description" content="MYLIFE ialah aplikasi percuma untuk mengurus komitmen bulanan. Download untuk Android dan aktifkan akses penuh dengan bayaran sekali RM9.90.">
-  <title>MYLIFE — Monthly Commitment App</title>
-  <link rel="icon" href="assets/mylife-logo.jpg">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#050806">
+  <meta name="description" content="MYLIFE ialah aplikasi pengurusan kewangan peribadi untuk menyusun komitmen, simpanan, nota dan rekod kewangan. Muat turun percuma.">
+  <title>MYLIFE — Urus Kewangan Dengan Cara Anda</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="MYLIFE home">
-      <img src="assets/mylife-logo.jpg" alt="MYLIFE logo" onerror="this.style.display='none'">
-      <span>MYLIFE<span class="brand-dot">.</span></span>
-    </a>
-    <nav class="desktop-nav">
-      <a href="#features" data-i18n="navFeatures">Ciri-ciri</a>
-      <a href="#download" data-i18n="navDownload">Muat turun</a>
-      <a href="#activation" data-i18n="navActivation">Aktivasi penuh</a>
-      <a href="#faq" data-i18n="navFaq">FAQ</a>
-    </nav>
-    <div class="header-actions">
-      <button class="lang-toggle" id="langToggle" type="button" aria-label="Change language">EN</button>
-      <a class="button button-small button-outline" href="#download" data-i18n="navGetApp">Dapatkan App</a>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">M</span><span>MYLIFE</span></a>
+  <nav><a href="#features">Ciri-ciri</a><a href="#screens">Paparan App</a><a href="#activation">Full Activation</a></nav>
+  <a class="nav-cta" href="downloads/mylife.apk">Download App</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">PERSONAL FINANCE • MADE SIMPLE</p>
+    <h1>Urus kewangan.<br><span>Ikut cara anda.</span></h1>
+    <p class="lead">Susun komitmen, pantau simpanan, simpan nota penting dan bawa data anda apabila bertukar telefon — semuanya dalam MYLIFE.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="downloads/mylife.apk">↓ Download MYLIFE Percuma</a>
+      <a class="button secondary" href="#features">Lihat ciri-ciri</a>
     </div>
-  </header>
-
-  <main>
-    <section class="hero section-wrap" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="pulse"></span><span data-i18n="heroEyebrow">APLIKASI ANDROID • PERCUMA UNTUK DIGUNAKAN</span></div>
-        <h1 data-i18n="heroTitle">Semua komitmen bulanan, <em>dalam satu tempat.</em></h1>
-        <p class="hero-description" data-i18n="heroDesc">Susun komitmen, pantau bayaran dan semak apa yang sudah atau belum dibayar dengan MYLIFE.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#download"><span data-i18n="heroDownload">Download MYLIFE FREE</span><span aria-hidden="true">↗</span></a>
-          <a class="button button-ghost" href="#activation" data-i18n="heroActivation">Lihat Full Activation</a>
-        </div>
-        <div class="hero-note"><span class="check">✓</span><span data-i18n="heroNote">Tiada trial. Tiada langganan untuk versi percuma.</span></div>
-      </div>
-      <div class="hero-visual real-app-visual">
-        <div class="glow"></div>
-        <div class="real-screen-card">
-          <img src="assets/screen-finance.jpg" alt="Paparan sebenar MYLIFE Finance">
-        </div>
-        <div class="floating-chip chip-one"><span class="chip-dot"></span><span data-i18n="floatPaid">Payment tracked</span></div>
-        <div class="floating-chip chip-two">✓ <span data-i18n="floatOrganized">Stay organized</span></div>
-      </div>
-    </section>
-
-    <section class="trust-strip">
-      <div><strong>RM0</strong><span data-i18n="trustFree">Untuk mula menggunakan</span></div>
-      <div><strong>Android</strong><span data-i18n="trustAndroid">Aplikasi Android</span></div>
-      <div><strong>RM9.90</strong><span data-i18n="trustUnlock">Aktivasi penuh sekali bayar</span></div>
-    </section>
-
-    <section class="section-wrap section" id="features">
-      <div class="section-heading">
-        <div class="eyebrow" data-i18n="featuresEyebrow">DIREKA UNTUK KEHIDUPAN HARIAN</div>
-        <h2 data-i18n="featuresTitle">Urus komitmen dengan <em>lebih teratur.</em></h2>
-        <p data-i18n="featuresDesc">Satu tempat untuk membantu anda melihat dan mengurus bayaran bulanan.</p>
-      </div>
-      <div class="feature-grid">
-        <article class="feature-card"><div class="feature-icon">▤</div><h3 data-i18n="feature1Title">Rekod komitmen</h3><p data-i18n="feature1Desc">Simpan senarai komitmen bulanan anda dalam satu aplikasi.</p></article>
-        <article class="feature-card"><div class="feature-icon">✓</div><h3 data-i18n="feature2Title">Pantau bayaran</h3><p data-i18n="feature2Desc">Tandakan bayaran sebagai sudah dibayar atau belum dibayar.</p></article>
-        <article class="feature-card"><div class="feature-icon">◷</div><h3 data-i18n="feature3Title">Tarikh pembayaran</h3><p data-i18n="feature3Desc">Lihat tarikh komitmen supaya lebih mudah merancang bayaran.</p></article>
-        <article class="feature-card"><div class="feature-icon">▦</div><h3 data-i18n="feature4Title">Ringkasan komitmen</h3><p data-i18n="feature4Desc">Semak gambaran komitmen bulanan anda dengan lebih jelas.</p></article>
-      </div>
-      <p class="small-disclaimer" data-i18n="featuresDisclaimer">Nota: Akses kepada sesetengah fungsi adalah terhad dalam versi FREE. Full Activation membuka akses penuh kepada fungsi aplikasi yang disediakan.</p>
-    </section>
-
-    <section class="download-section section" id="download">
-      <div class="section-wrap download-layout">
-        <div>
-          <div class="eyebrow"><span class="pulse"></span><span data-i18n="downloadEyebrow">MULA SECARA PERCUMA</span></div>
-          <h2 data-i18n="downloadTitle">Download. Install. <em>Mulakan.</em></h2>
-          <p data-i18n="downloadDesc">Dapatkan MYLIFE untuk Android dan mula rekod komitmen bulanan anda. Versi FREE boleh digunakan tanpa tempoh trial.</p>
-          <a class="button button-primary button-large" href="downloads/mylife.apk" download><span>↓</span><span data-i18n="downloadButton">Download APK FREE</span></a>
-          <p class="file-meta" data-i18n="downloadMeta">Android APK • Fail rasmi MYLIFE</p>
-        </div>
-        <div class="download-info">
-          <h3 data-i18n="beforeInstall">Sebelum memasang</h3>
-          <ol>
-            <li data-i18n="install1">Download fail APK daripada pautan rasmi ini.</li>
-            <li data-i18n="install2">Buka fail APK pada telefon Android anda.</li>
-            <li data-i18n="install3">Jika diminta, benarkan pemasangan daripada sumber ini.</li>
-            <li data-i18n="install4">Ikut arahan pada skrin untuk memasang MYLIFE.</li>
-          </ol>
-          <div class="security-note"><span>ⓘ</span><p data-i18n="securityNote">Android mungkin memaparkan amaran untuk pemasangan APK luar Play Store. Teruskan hanya jika fail diperoleh daripada saluran rasmi MYLIFE.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-wrap section activation-section" id="activation">
-      <div class="activation-card">
-        <div class="activation-copy">
-          <div class="eyebrow" data-i18n="activationEyebrow">PERLUKAN AKSES PENUH?</div>
-          <h2 data-i18n="activationTitle">Aktifkan semua fungsi <em>MYLIFE.</em></h2>
-          <p data-i18n="activationDesc">Gunakan versi FREE dengan had akses, atau dapatkan Full Activation untuk membuka akses penuh.</p>
-          <ul class="activation-points">
-            <li data-i18n="activationPoint1">Bayaran sekali sahaja</li>
-            <li data-i18n="activationPoint2">Tiada langganan bulanan</li>
-            <li data-i18n="activationPoint3">Activation Passkey diberikan selepas bayaran disahkan</li>
-          </ul>
-        </div>
-        <div class="price-card">
-          <span class="price-label" data-i18n="priceLabel">FULL ACTIVATION</span>
-          <div class="price">RM9<span>.90</span></div>
-          <span class="price-caption" data-i18n="priceCaption">Sekali bayar • One-time payment</span>
-          <a class="button button-primary button-full" id="buyButton" href="https://wa.me/601111505560?text=Hi%20MYLIFE%2C%20saya%20ingin%20membeli%20Full%20Activation%20RM9.90." target="_blank" rel="noopener"><span data-i18n="buyButton">Hubungi untuk beli</span><span>↗</span></a>
-          <p class="price-footnote" data-i18n="priceFootnote">Pembelian dan pengesahan dibuat secara manual melalui WhatsApp.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-wrap section steps-section">
-      <div class="section-heading">
-        <div class="eyebrow" data-i18n="stepsEyebrow">MUDAH DAN JELAS</div>
-        <h2 data-i18n="stepsTitle">Cara mendapatkan <em>Full Activation.</em></h2>
-      </div>
-      <div class="steps-grid">
-        <div class="step"><span>01</span><h3 data-i18n="step1Title">Hubungi MYLIFE</h3><p data-i18n="step1Desc">Tekan butang WhatsApp untuk membuat pesanan.</p></div>
-        <div class="step"><span>02</span><h3 data-i18n="step2Title">Buat pembayaran</h3><p data-i18n="step2Desc">Ikut arahan pembayaran yang diberikan oleh MYLIFE.</p></div>
-        <div class="step"><span>03</span><h3 data-i18n="step3Title">Terima Passkey</h3><p data-i18n="step3Desc">Passkey dihantar selepas pembayaran disahkan.</p></div>
-        <div class="step"><span>04</span><h3 data-i18n="step4Title">Aktifkan aplikasi</h3><p data-i18n="step4Desc">Masukkan Passkey dalam aplikasi untuk membuka akses penuh.</p></div>
-      </div>
-    </section>
-
-    
-    <section class="section-wrap section app-gallery" id="app-preview">
-      <div class="section-heading">
-        <div class="eyebrow" data-i18n="galleryEyebrow">PAPARAN APLIKASI SEBENAR</div>
-        <h2 data-i18n="galleryTitle">Lihat MYLIFE <em>dalam tindakan.</em></h2>
-        <p data-i18n="galleryDesc">Antara paparan sebenar fungsi yang tersedia dalam aplikasi MYLIFE.</p>
-      </div>
-      <div class="gallery-grid">
-        <figure><img src="assets/screen-finance.jpg" alt="MYLIFE Finance screen"><figcaption>Finance</figcaption></figure>
-        <figure><img src="assets/screen-expenses.jpg" alt="MYLIFE Expenses screen"><figcaption>Expenses</figcaption></figure>
-        <figure><img src="assets/screen-bills.jpg" alt="MYLIFE Bills screen"><figcaption>Bills</figcaption></figure>
-        <figure><img src="assets/screen-savings.jpg" alt="MYLIFE Savings screen"><figcaption>Savings</figcaption></figure>
-        <figure><img src="assets/screen-debt.jpg" alt="MYLIFE Debt screen"><figcaption>Debt</figcaption></figure>
-        <figure><img src="assets/screen-calendar-tasks.jpg" alt="MYLIFE Calendar and Tasks screen"><figcaption>Calendar &amp; Tasks</figcaption></figure>
-        <figure><img src="assets/screen-notes.jpg" alt="MYLIFE Notes screen"><figcaption>Notes</figcaption></figure>
-        <figure><img src="assets/screen-month-comparison.jpg" alt="MYLIFE Month by Month Comparison screen"><figcaption>Month-by-Month Comparison</figcaption></figure>
-      </div>
-    </section>
-
-    <section class="section-wrap section faq-section" id="faq">
-      <div class="section-heading">
-        <div class="eyebrow">FAQ</div>
-        <h2 data-i18n="faqTitle">Soalan yang <em>sering ditanya.</em></h2>
-      </div>
-      <div class="faq-list">
-        <details><summary data-i18n="faq1Q">Adakah MYLIFE percuma?</summary><p data-i18n="faq1A">Ya. MYLIFE boleh dimuat turun dan digunakan secara percuma dengan akses terhad. Tiada tempoh trial.</p></details>
-        <details><summary data-i18n="faq2Q">Apa itu Full Activation?</summary><p data-i18n="faq2A">Full Activation membuka akses penuh kepada fungsi MYLIFE yang disediakan. Harganya RM9.90 sekali bayar.</p></details>
-        <details><summary data-i18n="faq3Q">Adakah saya perlu membayar setiap bulan?</summary><p data-i18n="faq3A">Tidak. Full Activation ialah bayaran sekali sahaja, bukan langganan bulanan.</p></details>
-        <details><summary data-i18n="faq4Q">Bagaimana saya menerima Activation Passkey?</summary><p data-i18n="faq4A">Hubungi MYLIFE melalui WhatsApp. Selepas bayaran disahkan, Passkey akan diberikan untuk dimasukkan dalam aplikasi.</p></details>
-        <details><summary data-i18n="faq5Q">Bagaimana jika saya perlukan bantuan?</summary><p data-i18n="faq5A">Hubungi pasukan MYLIFE melalui WhatsApp di 601111505560.</p></details>
-      </div>
-    </section>
-
-    <section class="final-cta">
-      <div class="section-wrap final-cta-inner">
-        <div><div class="eyebrow" data-i18n="finalEyebrow">MULA URUS KOMITMEN ANDA</div><h2 data-i18n="finalTitle">Lebih tersusun, <em>setiap bulan.</em></h2></div>
-        <a class="button button-primary" href="#download" data-i18n="finalButton">Download MYLIFE FREE ↗</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="section-wrap footer-inner">
-      <a class="brand" href="#home"><img src="assets/mylife-logo.jpg" alt="" onerror="this.style.display='none'"><span>MYLIFE<span class="brand-dot">.</span></span></a>
-      <p data-i18n="footerText">Aplikasi untuk membantu mengurus komitmen bulanan.</p>
-      <a href="https://wa.me/601111505560" target="_blank" rel="noopener">WhatsApp: 601111505560</a>
-      <small>© <span id="year"></span> MYLIFE. <span data-i18n="rights">Hak cipta terpelihara.</span></small>
+    <div class="hero-points"><span>✓ Tiada tempoh percubaan</span><span>✓ Android APK</span><span>✓ Pilihan Full Activation</span></div>
+  </div>
+  <div class="hero-visual">
+    <div class="glow"></div>
+    <div class="hero-panel">
+      <div class="panel-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><small>MYLIFE APP</small></div>
+      <div class="panel-logo">M</div>
+      <h2>MYLIFE</h2>
+      <p>Pengurusan kewangan peribadi dalam satu tempat.</p>
+      <div class="mini-grid"><span>◷<b>Komitmen</b></span><span>◎<b>Simpanan</b></span><span>▤<b>Nota</b></span><span>↗<b>Laporan</b></span></div>
+      <div class="free-tag">FREE DOWNLOAD</div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <a class="floating-whatsapp" href="https://wa.me/601111505560?text=Hi%20MYLIFE%2C%20saya%20perlukan%20bantuan." target="_blank" rel="noopener" aria-label="WhatsApp MYLIFE">☏</a>
-  <script src="script.js"></script>
+<section class="trust-strip">
+  <div><strong>15</strong><span>pilihan tema</span></div>
+  <div><strong>5</strong><span>pilihan bahasa</span></div>
+  <div><strong>Custom</strong><span>peringatan komitmen</span></div>
+  <div><strong>Backup</strong><span>& Restore data</span></div>
+</section>
+
+<section class="section" id="features">
+  <div class="section-heading"><p class="eyebrow">DIREKA UNTUK RUTIN ANDA</p><h2>Bukan sekadar rekod.<br><span>Lebih fleksibel.</span></h2><p>Gunakan ciri MYLIFE untuk menyusun perkara penting mengikut keperluan sendiri.</p></div>
+  <div class="feature-grid">
+    <article class="feature-card"><div class="feature-icon">◷</div><h3>Reminder komitmen ikut masa sendiri</h3><p>Aktifkan peringatan untuk komitmen dan tetapkan masa notifikasi yang anda mahu.</p></article>
+    <article class="feature-card"><div class="feature-icon">◎</div><h3>Simpanan dengan gambar matlamat</h3><p>Muat naik gambar goal sendiri sebagai rujukan visual untuk matlamat simpanan.</p></article>
+    <article class="feature-card"><div class="feature-icon">▤</div><h3>Nota bersama gambar rujukan</h3><p>Simpan nota dan lampirkan gambar supaya maklumat penting lebih mudah dirujuk.</p></article>
+    <article class="feature-card"><div class="feature-icon">◈</div><h3>15 pilihan tema</h3><p>Pilih gaya paparan yang sesuai — daripada tema gelap, berwarna hingga anime dan permainan.</p></article>
+    <article class="feature-card"><div class="feature-icon">文</div><h3>5 pilihan bahasa</h3><p>Tukar bahasa aplikasi mengikut pilihan yang tersedia dalam MYLIFE.</p></article>
+    <article class="feature-card"><div class="feature-icon">⇄</div><h3>Backup & Restore</h3><p>Buat backup data dan restore semula apabila berpindah ke telefon baharu.</p></article>
+  </div>
+</section>
+
+<section class="screens section" id="screens">
+  <div class="section-heading"><p class="eyebrow">PAPARAN SEBENAR</p><h2>Lihat sendiri ciri MYLIFE.</h2><p>Screenshot daripada aplikasi MYLIFE versi terkini.</p></div>
+  <div class="screen-grid">
+    <figure><img src="assets/custom-reminder.jpg" alt="Tetapan reminder komitmen MYLIFE"><figcaption><b>Reminder komitmen</b><span>Aktifkan peringatan dan pilih masa.</span></figcaption></figure>
+    <figure><img src="assets/savings-goal.jpg" alt="Tambah simpanan dan gambar matlamat MYLIFE"><figcaption><b>Simpanan & matlamat</b><span>Tambah gambar goal sendiri.</span></figcaption></figure>
+    <figure><img src="assets/notes-reference.jpg" alt="Tambah nota dengan gambar rujukan MYLIFE"><figcaption><b>Nota bergambar</b><span>Simpan gambar untuk rujukan.</span></figcaption></figure>
+    <figure><img src="assets/themes-language.jpg" alt="Pilihan tema dan bahasa MYLIFE"><figcaption><b>15 tema & 5 bahasa</b><span>Sesuaikan paparan aplikasi.</span></figcaption></figure>
+    <figure><img src="assets/backup-restore.jpg" alt="Backup dan Restore MYLIFE"><figcaption><b>Backup & Restore</b><span>Pindahkan data ke telefon baharu.</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="activation section" id="activation">
+  <div><p class="eyebrow">MULA SECARA PERCUMA</p><h2>MYLIFE FREE</h2><p>Download aplikasi dan mula susun rekod kewangan anda. Versi percuma boleh digunakan tanpa tempoh percubaan.</p><a class="button primary" href="downloads/mylife.apk">Download APK Percuma</a></div>
+  <div class="activation-card"><p class="eyebrow">AKSES PENUH</p><div class="price">RM9.90</div><h3>Full Activation</h3><p>Bayaran sekali sahaja untuk membuka akses penuh yang ditawarkan dalam aplikasi.</p><a class="button secondary" href="https://wa.me/601111505560?text=Hi%2C%20saya%20berminat%20dengan%20MYLIFE%20Full%20Activation%20RM9.90.">Hubungi WhatsApp</a></div>
+</section>
+
+<section class="bottom-cta"><p class="eyebrow">MULA HARI INI</p><h2>Urus lebih tersusun.<br><span>Dengan MYLIFE.</span></h2><a class="button primary" href="downloads/mylife.apk">↓ Download MYLIFE Percuma</a><p class="small">Android APK • FREE download • Full Activation RM9.90</p></section>
+</main>
+<footer><a class="brand" href="#home"><span class="brand-mark">M</span><span>MYLIFE</span></a><span>© MYLIFE. Personal finance, made simple.</span><a href="https://wa.me/601111505560">WhatsApp Support</a></footer>
+<script src="script.js"></script>
 </body>
 </html>
