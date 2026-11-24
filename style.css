@@ -65,3 +65,18 @@ html[data-theme="light"] .eyebrow{color:#138c4c}
 html[data-theme="light"] .gallery-grid figure{background:#fff;border-color:#d3e2d7}
 html[data-theme="light"] .gallery-grid figcaption{color:#147a43}
 html[data-theme="light"] .gallery-grid img{background:#eef4ef}
+
+
+/* Five MYLIFE home-screen widgets showcase */
+.widget-showcase{display:grid;grid-template-columns:.9fr 1.1fr;gap:38px;align-items:center;padding:34px;border:1px solid var(--line);border-radius:24px;background:var(--panel)}
+.widget-copy h2{font:800 clamp(30px,4vw,44px) Manrope,sans-serif;line-height:1.12;margin:12px 0}
+.widget-copy h2 em{color:var(--gold);font-style:normal}
+.widget-copy p{color:var(--muted);line-height:1.7}
+.widget-list{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;padding:0;margin:22px 0 0;list-style:none}
+.widget-list li{font-size:13px;color:var(--text);padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel2)}
+.widget-list li:before{content:"✓";color:var(--gold);font-weight:800;margin-right:8px}
+.widget-image-wrap{max-width:310px;justify-self:center;padding:10px;border:1px solid var(--line);border-radius:24px;background:var(--panel2);box-shadow:0 18px 55px #0004}
+.widget-image-wrap img{display:block;width:100%;height:auto;border-radius:16px}
+html[data-theme="light"] .widget-showcase{background:var(--panel);border-color:var(--line)}
+html[data-theme="light"] .widget-list li{background:#fff;color:var(--text)}
+@media(max-width:760px){.widget-showcase{grid-template-columns:1fr;padding:22px}.widget-image-wrap{max-width:260px}.widget-list{grid-template-columns:1fr}}
